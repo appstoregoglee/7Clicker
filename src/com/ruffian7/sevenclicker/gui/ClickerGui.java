@@ -47,18 +47,18 @@ public class ClickerGui {
 	private final int WINDOW_HEIGHT = 125;
 	private final int DROPDOWN_HEIGHT = 100;
 
-	private final Color LIGHT_GRAY = new Color(60, 70, 73);
-	private final Color DARK_GRAY = new Color(45, 47, 49);
-	private final Color GREEN = new Color(35, 168, 105);
+	private final Color LIGHT_GRAY = new Color(255, 255, 255);
+	private final Color DARK_GRAY = new Color(255, 255, 255);
+	private final Color GREEN = new Color(255, 255, 255);
 
-	public JFrame frame = new JFrame("7Clicker");
+	public JFrame frame = new JFrame("App Clicker");
 
 	public JPanel mainPane = new JPanel(null);
 	public JPanel titleBar = new JPanel(null);
 	public JPanel dropdown = new JPanel(null);
 
-	public JLabel titleText = new JLabel("7Clicker");
-	public JLabel cpsRange = new JLabel("CPS Range");
+	public JLabel titleText = new JLabel("App Clicker");
+	public JLabel cpsRange = new JLabel("MANGO Range");
 	public JLabel cpsNumber = new JLabel("00");
 	public JLabel dropdownArrow = new JLabel(
 			new ImageIcon(AutoClicker.class.getClassLoader().getResource("assets/arrow_down.png")));
