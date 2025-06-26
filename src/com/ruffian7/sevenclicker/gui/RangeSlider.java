@@ -88,10 +88,10 @@ public class RangeSlider extends JPanel {
 		Graphics2D g2d = (Graphics2D) g;
 		g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
 
-		g2d.setColor(new Color(45, 47, 49));
+		g2d.setColor(new Color(255, 255, 255));
 		g2d.fill(sliderBody);
 
-		g2d.setColor(new Color(35, 168, 105));
+		g2d.setColor(new Color(255, 255, 255));
 		g2d.fill(sliderRange);
 
 		g2d.setColor(Color.BLACK);
