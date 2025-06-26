@@ -47,9 +47,9 @@ public class ClickerGui {
 	private final int WINDOW_HEIGHT = 125;
 	private final int DROPDOWN_HEIGHT = 100;
 
-	private final Color LIGHT_GRAY = new Color(60, 70, 73);
-	private final Color DARK_GRAY = new Color(45, 47, 49);
-	private final Color GREEN = new Color(35, 168, 105);
+	private final Color LIGHT_GRAY = new Color(255, 255, 255);
+	private final Color DARK_GRAY = new Color(255, 255, 255);
+	private final Color GREEN = new Color(255, 255, 255);
 
 	public JFrame frame = new JFrame("7Clicker");
 
